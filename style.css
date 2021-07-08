@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(61, 124, 241);
+}
+
+#weatherDashboard {
+  color: ;
+  margin: 0;
+  padding: 20px 0px 20px 50px;
+  font-size: 60px;
+  margin: -20px -40px 20px -20px;
+  width: 100%;
+}
+
+#searchBar {
+  height: 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#btnSubmit {
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  background-color: rgb(61, 124, 241);
+  height: 100%;
+  padding: 20px;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.currentWeather {
+  background-color: cornflowerblue;
+  float: left;
+  padding: 20px;
+  width: 62%;
+  margin: 10px;
+  flex-direction: row;
+  font-size: 30px;
+  color: cornsilk;
+  height: 300px;
+}
+
+.recentSearch {
+  background-color: cornflowerblue;
+  height: fit-content;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.fiveDayForecast {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: cornsilk;
+  margin-left: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.dayBlocks {
+  width: 20%;
+  height: 200px;
+  background-color: cornflowerblue;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+#recentList {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-size: 20px;
+  margin: 5px;
+}
